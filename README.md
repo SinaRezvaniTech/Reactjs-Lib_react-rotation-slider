@@ -32,7 +32,7 @@ const Example = ()=> {
   let images =  [img1,img2,img3,...]
   render() {
     return <ReactRotationSlider images={images}  borderColor={"#e33650"}
-    autoSlide={false} showBtns={false} />
+    autoSlide={5000} showBtns={true} />
   }
 }
 ```
@@ -66,9 +66,11 @@ const Example = ()=> {
 
 ## Donate Me
 
-My Brain needs two urgent coffees to continue working. Buy one or two coffees for me ❤️ :
+Your support motivates me to provide open source works.
+Thank you ❤️ :
 
 TRX : TJ6AvqZrH1N1Y51r6uMZqxWncrwy3ANac5
+
 USDT : 0x048C5aB5125aF59b2B589090Ea218E46927dAF74
 
 ## License
