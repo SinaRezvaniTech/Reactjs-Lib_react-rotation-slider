@@ -37,6 +37,33 @@ const Example = ()=> {
 }
 ```
 
+> Custom buttons using methods
+
+```jsx
+import React, {useRef} from "react";
+
+const Example = ()=> {
+  // ref to ReactRotationSlider
+  const ref = useRef();
+
+  let images =  [img1,img2,img3,...]
+
+  render() {
+    return <>
+    <ReactRotationSlider  images={images} ref={ref}/>
+
+    <p onClick={() => ref.current.next()}>
+      Next
+    </p>
+
+    <p onClick={() => ref.current.prev()}>
+      Next
+    </p>
+    </>
+  }
+}
+```
+
 ## Donate Me
 
 My Brain needs two urgent coffees to continue working. Buy one or two coffees for me ❤️ :
